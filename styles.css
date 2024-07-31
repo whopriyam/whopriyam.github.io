@@ -92,8 +92,8 @@ main h2 {
 }
 
 main ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc;
+    padding-left: 20px;
 }
 
 main ul li {
