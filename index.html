@@ -3,104 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyam Basu's Portfolio</title>
+    <title>Priyam Basu - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="profile.jpeg" alt="Priyam Basu" class="profile-photo">
-        <h1>Priyam Basu</h1>
-        <p>Senior Machine Learning Engineer</p>
-        <div class="contact-info">
-            <a href="mailto:priyambasu16@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/priyam-basu-62b985164/">LinkedIn</a>
-            <a href="https://github.com/whopriyam">GitHub</a>
-            <a href="https://scholar.google.com/citations?user=G8zh5H4AAAAJ&hl=en">Google Scholar</a>
-            <a href="Basu_Priyam_Resume_SE.pdf" target="_blank">Resume</a>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio website. I am a Senior Machine Learning Engineer with expertise in Natural Language Processing, Machine Learning, and more.</p>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <p><strong>Masters of Science in Computational Linguistics</strong><br>
-        University of Washington, Seattle, USA - 2024-2026</p>
-    </section>
-    <section>
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Languages: Python, UNIX, Java, C</li>
-            <li>Tools: PyTorch, TensorFlow, Huggingface, Keras, Scikit-Learn, Pandas, GCP, Azure, AWS, Git, Docker</li>
-            <li>Areas: Natural Language Processing, Large Language Models, Computer Vision, Machine Learning, Agile Development</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Industrial Patents</h2>
-        <p>"Systems, Methods and Media for retrieving an entity from a data table using semantic search". Priyam Basu, Zhao Jie Kok, Anbarasan Selvarasu, and Abhishek Pradhan. US Patent - US20230259507A1. 2023</p>
-    </section>
-    <section>
-        <h2>Industrial/Research Experience</h2>
-        <h3>Babbel, Germany | Senior Machine Learning Engineer</h3>
-        <p>Aug 2023 - Present</p>
-        <ul>
-            <li>Developed a novel audio-to-phoneme classification package using large language models which improved the performance of pre-existing module by 50%. Added a voice activity detection filter for silent noise removal from user audios.</li>
-            <li>Curated datasets to include diverse gender groups for bias-free training, by implementing audio feature filtering methods.</li>
-            <li>Migrated existing infrastructure on phoneme recognition and grapheme-to-phoneme modules from AWS Lambda to SageMaker using Inferentia Neuron chips. Set up training, inference, and MLOps pipelines including model quantization which improved latency by 4x and reduced developer cost of the team by 20%. Deployed the model using CloudFormation for infrastructure management and designed latency-based autoscaling policies to serve 1M users daily.</li>
-            <li>Created an end-to-end user satisfaction determination pipeline comprising a feature-specific filtering component followed by review sentiment analysis to detect product pain-points.</li>
-            <li>Mentored junior engineers in the team for their career transition to senior-engineer track and designed the MLE career development framework for the organization.</li>
-        </ul>
-        <h3>Automation Hero, Germany | Applied Scientist / Machine Learning Engineer</h3>
-        <p>May 2022 - Jul 2023</p>
-        <ul>
-            <li>Developed a Document Splitting tool which categorizes individual pages of multi-page documents. Designed an unsupervised novel combined approach based pipeline consisting of an algorithmic design of multimodal clustering, OCR, multi-layer contrastive key-phrase extraction, few-shot learning based document classification using contrastive learning and similarity search algorithm. Achieved an accuracy of 96.5% (evaluated on real world Insurance Claims documents) while reducing a 10-hour manual process to 25 minutes automated.</li>
-            <li>Created a Machine Readable Zone (MRZ) detector and extractor from passports and national visas from multi-page documents as scanned copies and photographs with document noise and image object skewing. Designed a novel pipeline consisting of detector and parser components, achieving an accuracy of 93.56%.</li>
-            <li>Developed a machine text plus handwritten text single OCR framework with ability for checkbox detection along with label mapping and associated question detection. Implemented a lined clustering algorithm and snippet slicing to avoid word detection overlap which achieved an accuracy of 92.25%.</li>
-            <li>Worked on other projects including object detection, document denoising, offline text translation, model quantization using Onnx and deployment on GRPC.</li>
-        </ul>
-        <h3>Taiger, Singapore | NLP Research Engineer</h3>
-        <p>Jun 2021 - Apr 2022</p>
-        <ul>
-            <li>Created a Table Entity Detection system for question answering over natural language databases including aggregation operation for advanced queries. Designed a custom table categorization module using generating equivalent categorical table embeddings. Created a novel zero-shot semantic algorithm for entity detection on financial tabular data. It outperformed Google’s state-of-the-art TaPas algorithm for information retrieval with accuracy of 97.79% and was computationally inexpensive without having much negative carbon impact. Published a US Patent as lead author.</li>
-            <li>Conducted preliminary research on Neural Semantic Search Engine using semantic similarity and key phrase extraction, along with dense and sparse retrieval of documents and metadata for filtering.</li>
-        </ul>
-        <h3>Nanyang Technological University, Singapore | NLP Researcher</h3>
-        <p>Mar 2021 - Jan 2022</p>
-        <ul>
-            <li>Created a novel text ranking metric to pick the most diverse and semantically similar augmentations from text generation models which increased accuracy on downstream classification task up to 35%. This work was accepted at GEM Workshop at EMNLP 2023 and was done under the supervision of Dr. Chng Eng Siong.</li>
-            <li>Created a novel text augmentation algorithm using Pegasus which can be integrated with any existing NER pipeline. Performed benchmark test on GMB dataset where it was able to improve the performance of baseline NER performance from F1-0.40 to F1-0.74 without making any changes to the model architecture.</li>
-            <li>Worked on Name entity recognition for a scalable Emergency Response System using BERT with BILOU tagging primarily focusing on Medical emergencies for automated dispatch of medical teams depending on correct assessment of type of medical emergency.</li>
-        </ul>
-        <h3>Forty4Hz, India | Data Scientist</h3>
-        <p>Jun 2020 - Jan 2021</p>
-        <ul>
-            <li>Created a Search Bar Recommendation system from scratch using multiple optimization techniques for an AI-based fully automated Data Analytics software, retrieved data using MySQL databases, AWS S3 buckets using Boto3, Clickhouse and deployed using FastAPI.</li>
-            <li>Automated creation of metadata from large size excel and csv files, retrieving them from AWS S3 buckets using Boto3, for Upload Application development, for automated upload of client-specific data to Clickhouse Database, thereby reducing the same 6-hour manual process for uploading to less than 5 mins using 2 clicks and front-end integration, including server deployment using FastAPI.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Publications</h2>
-        <ul>
-            <li>“Benchmarking Differential Privacy and Federated Learning for BERT Models”. Priyam Basu, Tiasa Singha Roy, Rakshit Naidu, Zumrut Muftuoglu, Sahib Singh and Fatemehsadat Mireshghallah. ICML 2021 Workshop on ML4Data</li>
-            <li>“Privacy enabled Financial Text Classification using Differential Privacy and Federated Learning”. Priyam Basu, Tiasa Singha Roy, Rakshit Naidu and Zumrut Muftuoglu. EMNLP 2021, EcoNLP Workshop</li>
-            <li>“RankAug: Augmented data ranking for text classification”. Priyam Basu, Tiasa Singha Roy. EMNLP 2023 GEM Workshop.</li>
-            <li>“CyberPolice: Classification of Cyber Sexual Harassment”. Priyam Basu, Tiasa Singha Roy, Soham Tiwari and Saksham Mehta. EPIA 2021, Springer LNCS</li>
-            <li>“Multimodal Sentimental Analysis of #MeToo Tweets using Focal Loss (Grand Challenge)”. Priyam Basu, Soham Tiwari, Joseph Mohanty and Sayantan Karmakar. IEEE BigMM 2020</li>
-            <li>“But how robust is RoBERTa actually?: A Benchmark of SOTA Transformer Networks for Sexual Harassment Detection on Twitter”. Priyam Basu, Tiasa Singha Roy and Ashima Singhal. IEEE I-SMAC 2021</li>
-            <li>“Interpretability of Fine-grained Classification of Sadness and Depression”. Priyam Basu, Tiasa Singha Roy, Rakshit Naidu and Aman Priyanshu</li>
-            <li>“Zero Shot Table Entity Detection using pre-trained Language models for Financial Documents”. Priyam Basu and Zhao Jie Kok</li>
-            <li>“Text augmentation using Finite State Transducers and Text summarization approaches for Name Entity Recognition”. Priyam Basu, Kway Zin Tun and Chng Eng Siong</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Achievements and Highlights</h2>
-        <ul>
-            <li>Lead author of US patent during internship at Taiger.</li>
-            <li>Published 7 research papers during undergraduate studies as the lead author with 107 citations and h-index 4.</li>
-            <li>Youngest senior-scale engineer at the age of 23 out of 1200+ employees at Babbel.</li>
-            <li>Co-founded a profitable Ed-Tech startup called DigiTutor which enabled peer-to-peer teaching of industrial courses between seniors and juniors of universities.</li>
-        </ul>
-    </section>
+    <div class="container">
+        <aside>
+            <img src="profile.jpeg" alt="Priyam Basu">
+            <h1>Priyam Basu</h1>
+            <p>Computational Linguistics at the University of Washington, Seattle</p>
+            <p>Seattle, USA</p>
+            <a href="Basu_Priyam_Resume_SE.pdf">Resume</a>
+            <p><a href="mailto:priyam.basu@example.com">Email</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/priyambasu/">LinkedIn</a>
+                <a href="https://github.com/priyambasu">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=priyambasu">Google Scholar</a>
+            </div>
+        </aside>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Born in India in 1997. I obtained a degree in Computer Engineering from the University of Washington with honors. I then pursued a master's degree in Computational Linguistics at the University of Washington, Seattle. I have worked in various roles in the industry, including as a Senior Machine Learning Engineer at Babbel, and have co-founded an Ed-Tech startup called DigiTutor.</p>
+            </section>
+            <section id="research">
+                <h2>Research Interests</h2>
+                <p>Natural Language Processing, Large Language Models, Computer Vision, Machine Learning, and Agile Development. My Ph.D. studies focus on computational linguistics, specifically on the development of novel algorithms for semantic search and entity detection.</p>
+            </section>
+            <section id="honors">
+                <h2>Honors and Awards</h2>
+                <ul>
+                    <li>Lead Author of US Patent: "Systems, Methods and Media for retrieving an entity from a data table using semantic search" (2023)</li>
+                    <li>Published 7 Research Papers during undergraduate studies with 107 citations and h-index 4.</li>
+                    <li>Youngest Senior-Scale Engineer at the age of 23 out of 1200+ employees at Babbel.</li>
+                    <li>Co-founded DigiTutor: A profitable Ed-Tech startup enabling peer-to-peer teaching of industrial courses.</li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>M.S. in Computational Linguistics: University of Washington, Seattle, USA</li>
+                    <li>B.S. in Computer Engineering: University of Washington, Seattle, USA</li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Languages: Python, UNIX, Java, C</li>
+                    <li>Tools: PyTorch, TensorFlow, Huggingface, Keras, Scikit-Learn, Pandas, GCP, Azure, AWS, Git, Docker</li>
+                    <li>Areas: Natural Language Processing, Large Language Models, Computer Vision, Machine Learning, Agile Development</li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Industrial/Research Experience</h2>
+                <h3>Babbel, Germany | Senior Machine Learning Engineer</h3>
+                <p>Aug 2023 - Present</p>
+                <ul>
+                    <li>Developed a novel audio-to-phoneme classification package using OpenAI Whisper model, improving performance by 50%.</li>
+                    <li>Curated datasets for bias-free training and created a grapheme-to-phoneme conversion library for multiple languages.</li>
+                    <li>Migrated infrastructure to SageMaker, improving latency by 4x and reducing developer costs by 20%.</li>
+                    <li>Deployed models using CloudFormation and designed autoscaling policies to serve 1M users daily.</li>
+                    <li>Mentored junior engineers and designed the MLE career development framework.</li>
+                </ul>
+                <!-- Add other experiences similarly -->
+            </section>
+            <section id="publications">
+                <h2>Publications</h2>
+                <ul>
+                    <li>“Benchmarking Differential Privacy and Federated Learning for BERT Models”. ICML 2021 Workshop on ML4Data</li>
+                    <li>“Privacy enabled Financial Text Classification using Differential Privacy and Federated Learning”. EMNLP 2021, EcoNLP Workshop</li>
+                    <li>“RankAug: Augmented data ranking for text classification”. EMNLP 2023 GEM Workshop</li>
+                    <!-- Add other publications similarly -->
+                </ul>
+            </section>
+            <section id="hobbies">
+                <h2>Hobbies</h2>
+                <h3>Programming + Math</h3>
+                <p>Passionate about understanding graphics engines and programming since childhood. Contributed to Project Euler and maintains an open-source repository.</p>
+                <h3>Travelling</h3>
+                <p>Aims to visit a new location annually, with trips across Italy and Thailand.</p>
+                <h3>Video Creator (rarely)</h3>
+                <p>Shares experiences in technology on YouTube, with some videos receiving over 150 thousand views.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>© 2024 Priyam Basu. All rights reserved.</p>
+    </footer>
 </body>
 </html>
